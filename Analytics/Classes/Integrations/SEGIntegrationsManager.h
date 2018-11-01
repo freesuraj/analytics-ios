@@ -30,6 +30,8 @@ extern NSString *_Nonnull SEGAnalyticsIntegrationDidStart;
 // @Deprecated - Exposing for backward API compat reasons only
 - (NSString *_Nonnull)getAnonymousId;
 
+- (void)saveAnonymousId:(NSString *)anonymousId;
+
 @end
 
 

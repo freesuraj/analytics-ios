@@ -215,6 +215,9 @@ NS_ASSUME_NONNULL_BEGIN
 /** Returns the anonymous ID of the current user. */
 - (NSString *)getAnonymousId;
 
+/** Sets the anonymous ID of the current user. */
+- (void)setAnonymousId:(NSString *)anonymousId;
+
 /** Returns the configuration used to create the analytics client. */
 - (SEGAnalyticsConfiguration *)configuration;
 
